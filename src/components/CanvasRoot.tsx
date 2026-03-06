@@ -11,7 +11,7 @@ export default function CanvasRoot() {
       <Canvas
         shadows
         dpr={[1, 1.75]}
-        camera={{ position: [0, 1.6, 4], fov: 50 }}
+        camera={{ position: [0, 4, 14], fov: 55 }}
       >
         <Suspense fallback={null}>
           <Experience />
